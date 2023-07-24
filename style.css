@@ -1,0 +1,283 @@
+.bg-color{
+    background-color: rgba(107, 145, 66, 0.1) !important;
+    }
+
+.nav-margin{
+    padding-left: 10%;
+    gap: 50px;
+    }
+    
+    ul li a{
+        text-decoration: none;
+        color: #000;
+        font-size: 20px;
+    }
+
+    ul li a:hover{
+        background-color: orange;
+        color: #000;
+        padding: 20px;
+    }
+    
+    .nav-bg{
+        background-color: white;
+    }
+
+    .login-btn{
+        background-color: green;
+        color: #fff;
+        padding: 5px;
+        border-radius: 15px;
+        border: none;
+        margin: 6px 15px 0 10%;
+        font-weight: bold;
+
+    }
+    
+    .hero-section{
+        padding: 110px 0 0 0;
+    }
+
+    .hero-section h1{
+        font-family: 'Merienda';
+        color: #396C03;
+        /* display: flex;
+        justify-content: center; */
+    }
+
+    .hero-section p{
+        font-family: 'Merienda';
+        font-weight: bold;
+        color: #396C03;
+        /* display: flex;
+        justify-content: center; */
+    }
+
+    .hero-btn{
+        border: none;
+        border-radius: 15px;
+        /* margin-left: 30px; */
+    }
+
+    .hero-btn input{
+        border: none;
+        border-radius: 15px;
+        width: 250px;
+        height: 30px;
+        padding: 0 0 0 10px;
+        font-family: 'Merienda';
+        font-weight: bold;
+        
+    }
+
+    .search-btn{
+        padding: 10px 15px;
+        background-color: #396C03;
+        border: none;
+        border-radius: 10px;
+        color: #fff;
+        font-weight: bold;
+    }
+
+    .two-hundred p{
+        color: #FF8B00; 
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .two-hundred{
+        background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.4) 100%);
+        padding: 0 30px;
+        position: absolute;
+        left: 45%;
+        top: 0;
+        border-radius: 15px;
+    }
+
+    .leaf-position{
+        position: absolute;
+        left: 64%;
+        top: 0;
+    }
+
+    .leaf-position img{
+        width: 350px;
+
+    }
+
+    .leaf-position-two{
+        position: absolute;
+        left: 0%;
+        top: 10%;
+    }
+
+    .leaf-position-two img{
+        width: 250px;
+    }
+
+    .explore-color{
+        background-color: rgba(255, 139, 0, .05);
+    }
+    .Explore-section h1{
+        font-family: 'Merienda';
+        color: #396C03;
+    }
+
+    .Explore-section p{
+        text-align: justify;
+    }
+
+    .Explore-section button{
+        color: #fff;
+        background-color: #396C03;
+        border: none;
+        border-radius: 25px;
+        padding: 10px 30px;
+        font-weight: bold;
+    }
+    .cards-padding{
+        padding: 100px 0;
+    }
+
+    .Gt-btn{
+        background-color: #FF8B00;
+        color: #fff;
+        padding: 5px 20px;
+        border: none;
+        border-radius: 20px;
+        font-weight: bold;
+    }
+    .position-absolute{
+        position: absolute;
+        left: 50%;
+        bottom: 10%;
+    }
+
+    .General-btn{
+        color: #fff;
+        background-color: #396C03;
+        border: none;
+        border-radius: 25px;
+        padding: 10px 30px;
+        font-weight: bold;
+    }
+
+    .business-btn{
+        border: 1px solid #396C03;
+        border-radius: 20px;
+        padding: 10px 20px;
+        color: #396C03;
+        background-color: #fff;
+    }
+
+    .plus-images img{
+        padding-left: 200px;
+    }
+
+    .put-css{
+        color: #396C03;
+        font-family:'Merienda';
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    .pocket-css{
+        text-align: justify;
+        padding: 120px 60px;
+    
+    }
+
+    .bg-footer{
+        background-color: #224300;
+    }
+
+    .txt-footer{
+        color: #fff;
+        padding: 80px 0 0 0; 
+    }
+
+    .food{
+        font-size: 43px;
+        font-family:'Merienda';
+    }
+
+
+
+    @media(max-width: 768px) {
+
+        .hero-section h1{
+            font-family: 'Merienda';
+            color: #396C03;
+            display: flex;
+            justify-content: center;
+        }
+
+        .hero-section p{
+            font-family: 'Merienda';
+            font-weight: bold;
+            color: #396C03;
+            display: flex;
+            justify-content: center;
+        }
+
+        .img-margin{
+            margin-left: 9%;
+        }
+
+        .hero-btn input{
+            border: none;
+            border-radius: 15px;
+            width: 170px;
+            height: 30px;
+            padding: 0 0 0 10px;
+            font-family: 'Merienda';
+            font-weight: bold;
+            
+        }
+
+        .leaf-position{
+            position: absolute;
+            left: 70%;
+            top: 15%;
+        }
+
+        .leaf-position img{
+            width: 300px;
+    
+        }
+
+        .leaf-position-two{
+            position: absolute;
+            left: 10%;
+            top: 22%;
+        }
+
+        .leaf-position-two img{
+            width: 220px;
+        }
+
+        .cards-padding{
+            padding: 100px 0;
+            text-align: center;
+        }
+        
+        .hero-second-col{
+            padding: 60px 0;
+        }
+        .pocket-css{
+            text-align: center;
+            padding:0;
+        }
+        .pocket-css img{
+            width: 190px;
+            padding:0;
+        }
+
+        .txt-footer{
+            color: #fff;
+            text-align: center; 
+            margin: 30px 0 0 0;
+        }
+
+
+    }
